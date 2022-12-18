@@ -6,35 +6,35 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 4.375rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 4.375rem;
 }
 .display-2 {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 3rem;
 }
 .display-4 {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 0.9375rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 0.9375rem;
 }
 .display-5 {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 1.875rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 1.875rem;
 }
 .display-7 {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 1.02rem;
 }
 .display-7 > .mbr-iconfont {
@@ -533,7 +533,7 @@ a:hover {
   display: none !important;
 }
 .form-control {
-  font-family: 'ArbFONTS-ExpoArabic-Book';
+  font-family: 'font';
   font-size: 1.02rem;
 }
 .form-control > .mbr-iconfont {

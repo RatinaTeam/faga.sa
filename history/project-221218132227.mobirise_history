@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "projects.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "cleanm4",
       "title": "CleanM4",
@@ -12,15 +12,15 @@
         "warningColor": "#eff2f7",
         "dangerColor": "#0a1126",
         "mainFont": "Jost",
-        "display1Font": "font",
+        "display1Font": "ArbFONTS-ExpoArabic-Book",
         "display1Size": 4.375,
-        "display2Font": "font",
+        "display2Font": "ArbFONTS-ExpoArabic-Book",
         "display2Size": 3,
-        "display5Font": "font",
+        "display5Font": "ArbFONTS-ExpoArabic-Book",
         "display5Size": 1.875,
-        "display7Font": "font",
+        "display7Font": "ArbFONTS-ExpoArabic-Book",
         "display7Size": "1.02",
-        "display4Font": "font",
+        "display4Font": "ArbFONTS-ExpoArabic-Book",
         "display4Size": 0.9375,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
@@ -41,10 +41,19 @@
     "versionFirst": "5.4.1",
     "siteFonts": [
       {
-        "css": "'ArbFONTS-ExpoArabic-Book'",
-        "name": "ArbFONTS-ExpoArabic-Book",
-        "url": null,
-        "file": "@PROJECT_PATH@/fonts/ArbFONTS-ExpoArabic-Book/font.ttf"
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Tajawal', sans-serif",
+        "name": "Tajawal",
+        "url": "https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700,800,900"
       },
       {
         "css": "'ArbFONTS-ExpoArabic-Book'",
@@ -53,10 +62,10 @@
         "file": "@PROJECT_PATH@/fonts/ArbFONTS-ExpoArabic-Book/font.ttf"
       },
       {
-        "css": "'font'",
-        "name": "font",
+        "css": "'ArbFONTS-ExpoArabic-Book'",
+        "name": "ArbFONTS-ExpoArabic-Book",
         "url": null,
-        "file": "@PROJECT_PATH@/fonts/font/font.ttf"
+        "file": "@PROJECT_PATH@/fonts/ArbFONTS-ExpoArabic-Book/font.ttf"
       }
     ],
     "imageResize": true,
@@ -3295,7 +3304,6 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_anchor": "menu2-l",
-          "_sourceTheme": "cleanm4",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
