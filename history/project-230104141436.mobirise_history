@@ -61,7 +61,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 36,
+    "uniqCompNum": 35,
     "versionPublish": "5.6.13",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
@@ -73,7 +73,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "site_lang": "ar",
-    "global_footer_custom": "<script  src=\"https://1cdn.ratina.co/js/helper-v11.js?c=b&l=en\" ></script>"
+    "global_footer_custom": "<script  src=\"https://1cdn.ratina.co/js/helper-v11.js?c=b&l=en\" ></script>",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1979,19 +1981,13 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "contact1",
+          "_sourceTheme": "jewelrym5",
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-title": {
-              "margin-bottom": "30px",
-              "color": "@secondaryColor"
-            },
             ".google-map": {
-              "height": "30rem",
+              "filter": "grayscale(0.9)",
+              "height": "34rem",
               "position": "relative",
-              "width": "100%",
               "iframe": {
                 "height": "100%",
                 "width": "100%"
@@ -2014,24 +2010,15 @@
               "&[data-state=\"loading\"]": {
                 "[data-state-details]": {
                   "display": "none"
-                }
+                },
+                "&::after": {}
               }
-            },
-            ".map-placeholder": {
-              "display": "none"
-            },
-            "h4": {
-              "padding-top": "5rem",
-              "color": "#767676",
-              "text-align": "center"
             }
           },
-          "_name": "map1",
-          "_sourceTheme": "cleanm4",
-          "_customHTML": "<section class=\"map1 cleanm4_map1\" group=\"Maps\">\n\n\t<mbr-parameters>\n\t\t<!-- Block of parameters for component -->\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"21.5780504,39.166763\" value=\"21.5780504,39.166763\">\n\t\t<!-- End block of parameters -->\n\t</mbr-parameters>\n\t<div class=\"row mbr-justify-content-center\">\n\t\t<div class=\"map-title col-sm-12 col-md-12 align-center\">\n\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .map-title\">\n\t\t\t\tFull Width Map\n\t\t\t</h2>\n\t\t</div>\n\t</div>\n\t<div class=\"google-map\" mbr-map=\"googleMap\"></div>\n</section>",
-          "_anchor": "map1-z",
+          "_customHTML": "<section class=\"contact1\" group=\"Contact\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"21.5780504,39.1667630\" value=\"21.5780504,39.1667630\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_anchor": "contact1-y",
           "_isUserblock": true,
-          "_cid": "trY7Warn0l",
+          "_cid": "tjWZXReoEK",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
